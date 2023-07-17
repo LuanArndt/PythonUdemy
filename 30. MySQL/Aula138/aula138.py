@@ -16,9 +16,10 @@ mycursor = mydb.cursor()
 #"""
 
 # Remover um campo da tabela
-#sql = """
-#    ALTER TABLE pessoas DROP sobrenome
-#"""
+sql = """
+    ALTER TABLE pessoas DROP sobrenome
+"""
+mycursor.execute(sql)
 
 # Cria um novo campo no inicio da tabela:
 #sql = """

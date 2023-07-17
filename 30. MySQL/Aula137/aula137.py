@@ -10,12 +10,12 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-#sql = """CREATE TABLE pessoas (
-#            nome VARCHAR(255), 
-#            idade INT(2)
-#        )"""
-#
-#mycursor.execute(sql)
+sql = """CREATE TABLE pessoas (
+            nome VARCHAR(255), 
+            idade INT(2)
+        )"""
+
+mycursor.execute(sql)
 
 mycursor.execute("SHOW TABLES")
 for x in mycursor:

@@ -22,7 +22,9 @@ sql = """
 """
 val = [
     ("Janete", "Becker", 52),
-    ("Rai", "Gustavo Arndt", 18)
+    ("Rai", "Gustavo Arndt", 18),
+    ("Luan", "Gabriel Arndt", 25),
+    ("Tamires", "De Souza", 21)
 
 ]
 #mycursor.execute(sql, val)
