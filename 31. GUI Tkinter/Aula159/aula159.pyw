@@ -3,8 +3,8 @@
 import tkinter as tk
 root = tk.Tk()
 root.title("Noite feliz")
-root.geometry("200x200+100-100")
+root.geometry("300x300+100+100")
 
-root.iconbitmap("./Dinamio.ico")
+root.iconbitmap("Dinamio.ico")
 
 root.mainloop()
