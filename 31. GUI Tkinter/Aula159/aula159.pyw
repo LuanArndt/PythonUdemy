@@ -2,7 +2,7 @@
 
 import tkinter as tk
 root = tk.Tk()
-root.title("Noite TESTE")
+root.title("Noite teste")
 root.geometry("300x300+100+100")
 
 root.iconbitmap("Dinamio.ico")
