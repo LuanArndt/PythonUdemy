@@ -6,5 +6,5 @@ root.title("Noite teste")
 root.geometry("300x300+100+100")
 
 root.iconbitmap("Dinamio.ico")
-
+#
 root.mainloop()
